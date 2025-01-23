@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+    const double PI = 3.14;
+    double p, r;
+    cout<<"r = ";
+    cin>>r;
+    if(r>=0)
+    {
+        p = 2 * PI * r;
+        cout<<"p = "<<p;
+    }
+    else cout<<"?????????? ?????! ???????? ?? ???? ?? ???? ??????????? ?????.";
+    return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+    const double PI = 3.14;
+    double p, r;
+    cout<<"r = ";
+    cin>>r;
+    p = 2 * PI * r;
+    cout<<"p = "<<p;
+    return 0;
+}
