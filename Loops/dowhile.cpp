@@ -11,7 +11,7 @@ int main() {
     cout << "Execute "<< i << << " times"<<"\n";
     i++;
   }
-  while (i < 5);
+  while (i < k);
   
   return 0;
 }
