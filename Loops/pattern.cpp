@@ -1,20 +1,21 @@
-// C++ program to display a pattern
-// with 5 rows and 3 columns
-
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main(){
+	int n = 5;
+	
+	for (int i = 0; i < n; i++) {
 
-int main() {
+        // Inner loop to handle number of columns
+        // values changing acc. to outer loop
+        for (int j = 0; j <= i; j++) {
 
-   int rows = 5;
-   int columns = 3;
+            // Printing stars
+            cout << "* ";
+        }
 
-   for (int i = 1; i <= rows; ++i) {
-      for (int j = 1; j <= columns; ++j) {
-         cout << "*  ";
-      }
-      cout << endl;
-   }
-
-   return 0;
-}
+        // Ending line after each row
+        cout << endl;
+    }
+	
+	return 0;
+} 
