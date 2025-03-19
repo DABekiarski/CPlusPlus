@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 using namespace std;
 int main(){
 	int array[6] = {1,32,43,545,65,324};
