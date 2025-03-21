@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 using namespace std;
 int main(){
 	double dbarr[5] = {3.14,678.232,4343.2323};
