@@ -21,7 +21,6 @@ int main(){
     cout << *(charray + 1) << endl;
     cout << *(charray + 2) << endl;
     cout << *(charray + 3) << endl;
-    cout << *(charray + 4) << endl;
-   	
-	return 0;
+      	
+    return 0;
 }
